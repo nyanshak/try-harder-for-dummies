@@ -8,9 +8,14 @@ Small set of useful info for Offensive Security & Security Research.
 
 - [Large Default Password List](https://github.com/govolution/betterdefaultpasslist)
 
-## Web Shells
+### Linux
+
+- [gimmecredz](https://github.com/0xmitsurugi/gimmecredz) - grab you some Linux passwords
+
+## Payloads
 
 - [php web shells 101](https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/)
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - huge list of payloads
 
 
 ## PrivEsc
@@ -19,6 +24,30 @@ Small set of useful info for Offensive Security & Security Research.
 
 - [Sherlock](https://github.com/rasta-mouse/Sherlock) - Local PrivEsc Suggester
 - [FuzzySecurity Windows PrivEsc Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html) - a very nice Windows privesc guide
+- [ADAPE-Script](https://github.com/hausec/ADAPE-Script) - Active Directory Assessment & PrivEsc
+
+### Linux
+
+- [GTFOBins](https://gtfobins.github.io/#) - common Unix binaries that could be used to bypass local restrictions
+
+#### Exploit Suggesters
+
+I'd love to have one tool that does all of this, but different tools seem
+better at detecting / suggesting specific exploits.
+
+- [kernelpop](https://github.com/spencerdodd/kernelpop)
+- [linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester)
+- [perl Linux_Exploit_Suggester](https://github.com/InteliSecureLabs/Linux_Exploit_Suggester) - if you have trouble with the others
+- [Linux Private-i](https://github.com/rtcrowley/linux-private-i)
+- [LinEnum](https://github.com/rebootuser/LinEnum)
+
+## Post-Exploitation
+
+### Windows
+
+- [ibombshell](https://github.com/ElevenPaths/ibombshell) - Powershell based post-exploitation framework
+- [p0wnedShell](https://github.com/Cn33liz/p0wnedShell) - PowerShell post-exploitation framework (compiled, does not require PS to run)
+
 
 ## Pivoting
 
@@ -57,6 +86,11 @@ Small set of useful info for Offensive Security & Security Research.
 #### Debuggers
 
 - [Beej's Quick Guide to GDB](https://beej.us/guide/bggdb/)
+
+#### Fuzzers
+
+- [honggfuzz](https://github.com/google/honggfuzz) - security-oriented, evolutionary fuzzer
+- [boofuzz](https://github.com/jtpereyda/boofuzz) - network / protocol fuzzing
 
 ### Misc
 
